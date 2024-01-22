@@ -1,0 +1,70 @@
+:root {
+  --green: #1ac15c;
+  --blue: #1f87cf;
+  --white: #fff;
+  --red: #f00f00;
+}
+body {
+}
+.main {
+  width: 40%;
+  box-shadow: 1px 1px 10px #eee;
+  margin-top: 45px;
+  padding: 10px;
+}
+input {
+  margin-bottom: 10px;
+  width: 60%;
+  padding: 5px;
+  font-family: cairo;
+  font-size: 15px;
+  font-weight: bold;
+}
+button {
+  border: none;
+  padding: 10px;
+  width: 40%;
+  font-weight: bold;
+  font-size: 15px;
+  color: var(--white);
+  background-color: var(--green);
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+label {
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: var(--blue);
+  color: var(--white);
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--red);
+  font-weight: bold;
+}
+p {
+  font-weight: bold;
+}
+
+/*products page*/
+.card {
+  float: right;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.card img {
+  width: 100%;
+  height: 200px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttons a {
+  width: 100px;
+}
